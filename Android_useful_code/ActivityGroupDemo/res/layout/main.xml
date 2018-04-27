@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <FrameLayout 
+   android:id="@+id/container"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_weight="1.0"
+   /> 
+   <RadioGroup 
+  	android:id="@+id/rgOperator" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="bottom"
+  	android:gravity="center_horizontal"
+  	android:checkedButton="@+id/rdoSearch"
+  	android:background="@drawable/maintab_toolbar_bg"
+  	android:orientation="horizontal"
+   >
+   <RadioButton 
+   android:id="@id/rdoSearch"
+   style="@style/bottombuttonstyle"
+   android:text="Search"
+   android:drawableTop="@android:drawable/ic_menu_search"
+   />
+   <RadioButton 
+   android:id="@+id/rdoAdd"
+   style="@style/bottombuttonstyle"
+   android:text="Add"
+   android:drawableTop="@android:drawable/ic_menu_add"
+   />
+   <RadioButton 
+   android:id="@+id/rdoUpdate"
+   style="@style/bottombuttonstyle"
+   android:text="Add"
+   android:drawableTop="@android:drawable/ic_menu_edit"
+   />
+   <RadioButton style="@style/bottombuttonstyle" android:drawableTop="@android:drawable/ic_menu_delete" android:id="@+id/rdoDelete" android:text="Add"></RadioButton>
+   <RadioButton 
+   android:id="@+id/rdoExit"
+   style="@style/bottombuttonstyle"
+   android:text="Add"
+   android:drawableTop="@android:drawable/ic_menu_close_clear_cancel"
+   />
+   </RadioGroup>
+</LinearLayout>
+
+

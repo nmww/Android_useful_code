@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--   命名空间：  xmlns:android="http://schemas.android.com/apk/res/android" -->
+
+<!--set 动画集  -->
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- scale比例缩放效果  android:startOffset="2000"动画开始之后2s开始运行   -->
+	
+<scale 
+	android:fromXScale="1.0"
+	android:toXScale="0.6"
+	android:fromYScale="2.0"
+	android:toYScale="1.6"
+	android:duration="3000"
+	android:repeatCount="3"
+	android:zAdjustment="normal"
+	android:fillBefore="true"
+	android:fillAfter="true"
+	android:repeatMode="reverse"
+	
+></scale>
+<!-- taranslate 位置一定变化  repeatCount表示重复次数  repeatMode="reverse" 反复变化 -->
+<translate
+	android:fromXDelta="0"
+	android:toXDelta="100"
+	android:fromYDelta="0"
+	android:toYDelta="100"
+	android:repeatCount="1"
+	android:repeatMode="reverse"
+	android:duration="3000"
+	android:fillAfter="true"
+	android:startOffset="3000"
+></translate>
+<!--rotate 旋转动画   pivot定义转动中心坐标   Degrees定义转动角度 -->
+<rotate 
+	android:fromDegrees="0"
+	android:toDegrees="1080"
+	android:pivotX="50%"
+	android:pivotY="60%"
+	android:repeatCount="1"
+	android:repeatMode="reverse"
+	android:duration="3000"
+	android:startOffset="6000"
+/>
+<!-- alpah 淡入淡出的效果 -->
+<alpha 
+	android:fromAlpha="16.0"
+	android:toAlpha="-0.1"
+	android:interpolator="@android:anim/accelerate_interpolator"
+	android:fillAfter="true"
+	android:duration="3000"
+	android:repeatCount="2"
+	android:repeatMode="reverse"
+	android:startOffset="9000"
+/>
+
+</set>
+
+
+
+
+
+
+
+
+
