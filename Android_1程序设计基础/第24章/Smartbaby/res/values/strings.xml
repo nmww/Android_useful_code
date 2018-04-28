@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="hello"></string>
+    <string name="app_name">形状学习</string>
+<string name="menu_new_game">新游戏</string>
+<string name="menu_help">帮助</string>
+<string name="menu_preferences">设置</string>
+<string name="summary_toggle_vibrate_preference">正确完成动作后震动</string>
+<string name="title_toggle_vibrate_preference">震动</string>
+<string name="summary_toggle_music_preference">播放背景音乐</string>
+<string name="title_toggle_music_preference">音乐</string>
+<string name="preference_title">设置</string>
+<string name="help_body">将形状拖到重叠的位置 </string>
+<string name="help_title">帮助</string>
+</resources>

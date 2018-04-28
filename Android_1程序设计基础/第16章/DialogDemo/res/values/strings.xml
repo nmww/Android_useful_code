@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">DialogDemo</string>
+<string name="DialogTitle">Current Time</string>
+<string name="Dialog_OK">OK</string>
+<string name="Dialog_Cancle">Cancel</string>
+<string name="Dialog_Message">Current Time</string>
+<string name="Button_SimpleDialog">GetTime</string>
+</resources>

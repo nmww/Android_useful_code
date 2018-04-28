@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_save" android:icon="@drawable/save"
+		android:title="保存" android:showAsAction="ifRoom|withText" />
+	<item android:id="@+id/menu_delete" android:icon="@drawable/delete"
+		android:title="删除" />
+	<item android:id="@+id/menu_search" android:title="Search"
+		android:icon="@drawable/search" android:showAsAction="ifRoom"
+		android:actionLayout="@layout/searchview" />
+
+
+</menu>

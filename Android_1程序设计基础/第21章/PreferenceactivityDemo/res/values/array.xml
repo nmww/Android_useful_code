@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="department">
+		<item>电子工程系	</item>
+		<item>计算机系</item>
+		<item>外语系</item>
+	</string-array>
+	<string-array name="department_value">
+		<item>001</item>
+		<item>002</item>
+		<item>003</item>
+	</string-array>
+</resources>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">\"Hello World, main!\"\n\r i am hyl</string>
+    <string name="format_string">
+	Hello %2$s ha ha. %1$s again
+    </string>
+    
+    <string name="app_name"></string>
+</resources>

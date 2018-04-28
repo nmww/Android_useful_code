@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">情景模式定时切换 </string>
+	<string name="ring_and_vibrate">铃声且震动</string>
+	<string name="ring">仅铃声</string>
+	<string name="vibrate">仅震动</string>
+	<string name="silent">静音</string>
+	<string name="start">开始时间 :</string>
+	<string name="end">结束时间 :</string>
+</resources>

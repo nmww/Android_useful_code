@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="使用android:digits属性" />
+	<EditText android:layout_width="200dp" android:layout_height="wrap_content"
+		android:textColor="#000000" android:background="#FFFFFF" android:hint="仅能输入26个小写字母，不信试试"
+		android:layout_margin="10dp" android:digits="abcdefghijklmnopqrstuvwxyz" />
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="使用android:inputType属性" />
+	<EditText  android:id="@+id/myedit" android:layout_width="200dp" android:layout_height="wrap_content"
+		android:textColor="#000000" android:background="#FFFFFF" android:hint="仅能输入数字，不信试试"
+		android:layout_margin="10dp" android:inputType="number" 
+		
+		/>
+
+	
+</LinearLayout>

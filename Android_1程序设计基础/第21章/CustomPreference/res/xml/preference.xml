@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <com.demo.custompreference.MySeekBarPreference
+           android:key="CustSeekBar"  
+            android:title="Custom Seek Bar" 
+            android:dialogTitle="Custom Seek Bar" 
+            android:persistent="true" /> 
+  <com.demo.custompreference.MyCustSeekBarPreference
+           android:key="MyCustSeekBar"  
+           android:title="My Custom Seek Bar" 
+            android:dialogTitle=" My Custom Seek Bar" 
+            android:persistent="true" /> 
+  
+</PreferenceScreen>

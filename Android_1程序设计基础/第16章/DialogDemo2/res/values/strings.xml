@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">your  operate system is</string>
+    <string name="app_name">DialogDemo2</string>
+<string name="Button_Choose">Choose</string>
+<string name="dialog_ok">OK</string>
+<string name="dialog_cancle">Cancle</string>
+</resources>

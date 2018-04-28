@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.demo.intent" android:versionCode="1" android:versionName="1.0">
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Activity_comm_1" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			 			
+		</activity>
+		<activity android:name=".Activity_comm_2" android:label="Activity_comm_2"/>
+		<activity android:name=".ActivityOne" android:label="@string/app_name">
+		</activity>
+		<activity android:name=".ActivityTwo" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="com.demo.intent.Useraction" />
+				
+			</intent-filter>
+		</activity>
+		<activity android:name=".ShortCut" android:label="ShortCutDemo">
+			 <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<service android:name=".ServiceOne">
+		</service>
+
+		<service android:name=".ServiceTwo">
+			<intent-filter>
+				<action android:name="com.demo.intent.Useraction2" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+		<activity android:name=".PlayMusic"    android:label="playmusic">   
+            <intent-filter>   
+                <action android:name="android.intent.action.GET_CONTENT" />   
+                 <category android:name="android.intent.category.DEFAULT" />   
+                 <category android:name="android.intent.category.OPENABLE" />   
+                 <data android:mimeType="audio/music1" />   
+            </intent-filter>   
+        </activity> 
+		
+	</application>
+	<uses-sdk android:minSdkVersion="9" />
+</manifest> 

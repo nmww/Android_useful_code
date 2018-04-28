@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="os"><item>ios 4</item>
+<item>windows mobile 7</item>
+<item>Android 2.3</item>
+</string-array>
+</resources>

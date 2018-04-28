@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="个人信息"
+		android:key="personal">
+		<EditTextPreference android:title="姓名" android:key="name"></EditTextPreference>
+		<ListPreference android:entryValues="@array/department_value"
+			android:key="department" android:entries="@array/department" android:dialogTitle="请选择所在院系" android:title="所在院系"></ListPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:key="hobby"
+		android:title="个人爱好" android:summary="选择你喜爱的运动">
+		<CheckBoxPreference android:key="sport1"
+			android:title="篮球"></CheckBoxPreference>
+	<CheckBoxPreference android:title="足球" android:key="sport2"></CheckBoxPreference>
+</PreferenceCategory>
+</PreferenceScreen>

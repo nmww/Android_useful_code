@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<Button android:text="activity1" android:id="@+id/activity1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="activity2" android:id="@+id/activity2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="service1" android:id="@+id/service1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="service2" android:id="@+id/service2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="choose" android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="createshortcut" android:id="@+id/Button_createshortcut" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="deleteshortcut" android:id="@+id/Button_deleteshortcut" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

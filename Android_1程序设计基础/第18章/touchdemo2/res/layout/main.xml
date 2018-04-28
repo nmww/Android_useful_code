@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.demo.touch2.MyTrueButton android:text="returns true" 
+    android:id="@+id/trueBtn1"
+    android:tag="trueBtnTop"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    
+    <com.demo.touch2.MyFalseButton android:text="returns false"
+    android:id="@+id/falseBtn1" 
+    android:tag="falseBtnTop"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

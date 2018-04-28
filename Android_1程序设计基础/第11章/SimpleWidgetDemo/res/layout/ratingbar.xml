@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RatingBar android:id="@+id/ratingBar1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:rating="3"></RatingBar>
+	<RatingBar android:id="@+id/ratingBar2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:numStars="5"
+		android:rating="4"
+		android:isIndicator="false" style="?android:attr/ratingBarStyleIndicator"
+		android:layout_marginTop="20dp"></RatingBar>
+	<RatingBar android:id="@+id/ratingBar3" android:layout_width="wrap_content" 
+	android:numStars="10"
+       android:rating="8"
+		android:isIndicator="false" style="?android:attr/ratingBarStyleSmall"
+		android:layout_marginTop="20dp"
+	android:layout_height="wrap_content"></RatingBar>
+
+
+</LinearLayout>

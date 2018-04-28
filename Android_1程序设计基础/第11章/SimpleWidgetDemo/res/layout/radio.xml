@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/myTextView" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="你选择的设备是" />
+	<RadioGroup android:id="@+id/rBtnGroup_mobile"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/moto"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Moto" />
+		<RadioButton android:id="@+id/samsung"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Samsung" />
+		<RadioButton android:id="@+id/htc"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="HTC" />
+	</RadioGroup>
+	<TextView android:id="@+id/myTextView2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="你选择的运营商是" />
+	<RadioGroup android:id="@+id/rBtnGroup_service"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/tele"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="电信" />
+		<RadioButton android:id="@+id/mbile"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="移动" />
+		<RadioButton android:id="@+id/unicomm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="联通" />
+	</RadioGroup>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_01">文件名称</string>
+    <string name="label_02">文件内容</string>
+    <string name="save">保存</string>
+    <string name="read">读取文件内容</string>
+    <string name="app_name">基本文件操作  </string>
+    <string name="success">文件保存成功</string>
+    <string name="failure">文件保存失败</string>
+    <string name="readFail">文件读取失败</string>
+    <string name="readSucc">文件读取成功</string>
+    <string name="loading">loading...</string>
+</resources>

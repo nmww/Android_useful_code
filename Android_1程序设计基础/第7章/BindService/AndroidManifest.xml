@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.demo.bindservice" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="7" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".LocalBind" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<service android:name=".LocalCountService">
+
+			<intent-filter>
+				<action android:name="com.demo.service.LocalCountService" />
+			</intent-filter>
+		</service>
+		<service android:name=".RemoteCountService">
+			<intent-filter>
+				<action android:name="com.demo.service.RemoteCountService" />
+			</intent-filter>
+		</service>
+		<service android:name=".RemoteCountBeanService"
+			android:permission="com.demo.service.sample">
+			<intent-filter>
+				<action android:name="com.demo.service.RemoteCountBeanService" />
+			</intent-filter>
+		</service>
+
+		
+	</application>
+</manifest>

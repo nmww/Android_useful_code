@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/textview1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="#0000FF"
+		android:background="#FFFFFF" android:text="这是我的新号码88888888" 
+		android:autoLink="phone" 
+		/>
+	<TextView android:id="@+id/textview2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="显示文本"
+		android:textSize="20dp"	android:padding="10dp"	android:layout_margin="5dp" />
+
+
+</LinearLayout>

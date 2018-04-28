@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/disabled" android:orderInCategory="3"
+		android:enabled="false" android:title="青铜时代" />
+	<item android:id="@+id/old" android:title="旧石器时代"
+		android:orderInCategory="1"  />
+	<item android:id="@+id/newtime" android:orderInCategory="2"
+		android:title="新石器时代" />
+	
+	<group android:id="@+id/other_stuff" android:menuCategory="secondary" android:visible="false">
+		<item android:id="@+id/xia" android:orderInCategory="0"
+			android:title="夏朝" />
+		<item android:id="@+id/shang" android:orderInCategory="1"
+			android:title="商朝" />
+	</group>
+	<item android:id="@+id/submenu" android:orderInCategory="3"
+		android:title="文明时代">
+		<menu>
+			<item android:id="@+id/cq" android:title="春秋"
+				android:visible="true" android:alphabeticShortcut="c" />
+			<item android:id="@+id/zg" android:title="战国"
+				android:visible="true" android:alphabeticShortcut="z" />
+			<item android:id="@+id/qin" android:title="秦"
+                android:visible="false" 
+				android:alphabeticShortcut="q" />
+			<item android:id="@+id/han" android:title="汉"
+
+				android:alphabeticShortcut="h" />
+		</menu>
+	</item>
+	<item android:id="@+id/swap" android:orderInCategory="5"
+		android:title="切换" />
+</menu>

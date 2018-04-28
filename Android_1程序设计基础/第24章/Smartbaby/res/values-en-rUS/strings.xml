@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name">Learn Shapes</string>
+<string name="menu_new_game">New Game</string>
+<string name="menu_help">Help</string>
+<string name="menu_preferences">Preferences</string>
+<string name="summary_toggle_vibrate_preference">Vibrate phone on correct shape</string>
+<string name="title_toggle_vibrate_preference">Vibrate</string>
+<string name="summary_toggle_music_preference">playing the music</string>
+<string name="title_toggle_music_preference">Music</string>
+<string name="preference_title">Preferences</string>
+<string name="help_body">Drag the shape to the correct place </string>
+<string name="help_title">Help</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">SimpleWidgetDemo</string>
+    <string name="mobileos">你喜欢的移动操作系统是：</string>
+    <string name="ios">iOS</string>
+    <string name="android">Android</string>
+    <string name="wphone">WPone 7</string>
+</resources>
